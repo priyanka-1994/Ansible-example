@@ -1,0 +1,4 @@
+---
+ - name: config.html
+   become_user: root
+   copy: src=nginx.html dest=/var/www/html

@@ -1,0 +1,11 @@
+---
+- hosts: nginx
+  become_user: root
+  roles:
+   - nginx
+
+- hosts: apache
+  become_user: root
+  roles:
+   - apache
+  
